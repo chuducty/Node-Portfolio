@@ -1,0 +1,79 @@
+hr{
+	border: 1px solid #BCBBBB;
+}
+body{
+	margin-top: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+.mainname{
+	color: #0E3C53;
+	font-weight: 300;
+}
+.skill {
+  background: #2993BF;
+  width: 200px;
+  margin: 15px 0px;
+  padding: 2px 0px;
+  font-family: sans-serif;
+  font-size: .8em;
+  
+}
+.nav-cus{
+	font-size:16px;
+	color:#666666;
+}
+.nav-cus a{
+	color:#666666;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	
+}
+.nav-cus a:hover{
+	color:#222222;
+	font-size: 120%;
+	text-decoration: none;
+	
+}
+.nav-cus li{
+	margin-right: 20px;
+	margin-left:20px;
+}
+.nav-cus .active{
+	/*text-decoration: underline;*/
+	font-weight: bold;
+}
+.skill p { margin: 0px 10px; color:#fff; 
+}
+
+.glyphicon {
+	font-size: 20px;
+}
+p{
+	font-family: 'Lora', serif;
+}
+.fa{
+	color:#49075E;
+}
+.nopadding {
+		padding: 1px !important;
+		margin: 1px !important;
+}
+#social li{
+	margin-left:3px;
+	margin-right:3px;
+}
+.black{
+	color:black;
+}
+.glow {
+  color: #444;
+  text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+}
