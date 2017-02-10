@@ -17,7 +17,7 @@ body{
   padding: 2px 0px;
   font-family: sans-serif;
   font-size: .8em;
-  
+
 }
 .nav-cus{
 	font-size:16px;
@@ -27,13 +27,13 @@ body{
 	color:#666666;
 	text-decoration: none;
 	transition: all 0.3s ease;
-	
+
 }
 .nav-cus a:hover{
 	color:#222222;
 	font-size: 120%;
 	text-decoration: none;
-	
+
 }
 .nav-cus li{
 	margin-right: 20px;
@@ -43,7 +43,7 @@ body{
 	/*text-decoration: underline;*/
 	font-weight: bold;
 }
-.skill p { margin: 0px 10px; color:#fff; 
+.skill p { margin: 0px 10px; color:#fff;
 }
 
 .glyphicon {
@@ -68,12 +68,17 @@ p{
 }
 .glow {
   color: #444;
-  text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+  text-shadow:
+    1px 0px 1px #ccc, 0px 1px 1px #eee,
     2px 1px 1px #ccc, 1px 2px 1px #eee,
     3px 2px 1px #ccc, 2px 3px 1px #eee,
     4px 3px 1px #ccc, 3px 4px 1px #eee,
     5px 4px 1px #ccc, 4px 5px 1px #eee,
     6px 5px 1px #ccc, 5px 6px 1px #eee,
     7px 6px 1px #ccc;
+}
+@media screen and (max-width: 1000px) {
+    .overlay > p {
+			display:none;
+		}
 }
