@@ -27,6 +27,10 @@ app.get('/about',(req,res) => {
     });
 });
 
+app.get('/cv', (req, res) => {
+  res.render('cv.hbs',{cv: true})
+});
+
 app.get('/test',function(req,res){
     res.render('test.hbs',{
       __dirname
